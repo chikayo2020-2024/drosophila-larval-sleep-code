@@ -17,11 +17,12 @@ Neuropeptidergic circuit modulation of developmental sleep in Drosophila
 - Required Python and R packages are indicated in the scripts.
 
 ## Usage
-1. Run `videoanalyzer_single_loop_ROI_F_binary-thresh_AppliedPC_8.py` to generate CSV files containing frame-by-frame pixel change values for each well.
+1. Run `batch_24well_binary-thresh_AppliedPC_8.py` to generate CSV files containing frame-by-frame pixel change values for each well.
 2. Run `20211201_data_processing.R` to read the CSV files and calculate sleep amount.
 
 ## Input and output
 - Input: video files of larval behavior acquired using a 24-well plate system
 - Note: well size compatibility should be confirmed before use.
 - Intermediate output: CSV files containing frame-by-frame pixel change values for each well
+
 - Final output: quantified sleep measurements
